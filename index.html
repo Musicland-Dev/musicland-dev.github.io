@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+    <title>Matthew Belanger - Software Engineer</title>
+    <meta name="Description" content="This is my Software Engineer portfolio. Check it out!">
+    <meta name="author" content="Matt Belanger">
+    <meta name="keywords" content="portfolio software engineer computer science matt belanger matthew">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+
+<body>
+<!--Navbar Section-->
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="#home" id="navbar__logo">
+            Matthew<br>Belanger
+        </a>
+
+        <!--Hamburger Menu-->
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="#home" class="navbar__links" id="home-page">
+                    Home
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="#about" class="navbar__links" id="about-page">
+                    About
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="#skills" class="navbar__links" id="skills-page">
+                    Skills
+                </a>
+            </li>
+            <li class="navbar__btn">
+                <a href="#contact" class="button" id="signup">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero" id="home">
+    <div class="hero__container">
+        <h1 class="hero__heading">
+            Matthew Belanger
+        </h1>
+        <p class="hero__description">Software Engineer</p>
+        <a href="#about">
+            <button class="main__btn">
+                <p>About Me</p>
+            </button>
+        </a>
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="main">
+    <div class="main__container" id="about">
+        <div class="main__img--container">
+            <div>
+                <a href="mailto:mattmbelanger@hotmail.com"><img src="img/matt_belanger.jpg" alt="SRC ERR" class="main__img--card"></a>
+            </div>
+        </div>
+        <div class="main__content">
+            <h1>Who am I?</h1>
+            <h2>I am a Driven Software Engineer Pursuing a Bachelor's Degree in Computer Science</h2>
+            <p>Click on me to the left to contact me right now or click below to learn more!</p>
+            <a href="#skills">
+                <button class="main__btn">
+                    <p>Learn More!<p>
+                </button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Skills Sections-->
+<div class="skills" id="skills">
+    <div class="skills__wrapper">
+
+        <div class="skills__card">
+            <h2>Discord Bot Server</h2>
+            <p>
+                A server/client program used to upload a
+                discord bot to a dedicated machine on the
+                same network to host the bot remotely
+            </p>
+            <div class="skills__btn">
+                <button>
+                    <a href="https://github.com/MattBelanger321/BotHostClient" class="skills__btn--link" target="_blank">Check it Out!</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="skills__card">
+            <h2>Graph Builder</h2>
+            <p>
+                A drawing tool developed in Java Swing that allows the user
+                to create, modify, save and load mathematical graphs with an intuitive
+                GUI interface
+            </p>
+            <div class="skills__btn">
+                <button>
+                    <a href="https://github.com/MattBelanger321/GraphBuilder" class="skills__btn--link" target="_blank">Check it Out!</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="skills__card">
+            <h2>Custom Compiler</h2>
+            <p>
+                This program translates programs from the
+                Tiny language (which you can learn more about from the ReadMe)
+                to Java. It uses JavaCup and Flex to program the logic and lexically analyze the Tiny program and outputs
+                equivalent Java code that can be complied immediately.
+            </p>
+            <div class="skills__btn">
+                <button>
+                    <a href="https://github.com/MattBelanger321/TinyToJava" class="skills__btn--link" target="_blank">Check it Out!</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="skills__card">
+            <h2>Spotify Desktop Extension for Java</h2>
+
+            <p>
+                A Spotify extension written in Java
+                that allows the user to quickly add songs
+                to their active queue and search and play songs
+                instantly across their devices
+            </p>
+
+            <div class="skills__btn">
+                <button>
+                    <a href="https://github.com/MattBelanger321/SpotifyApiExample" class="skills__btn--link" target="_blank">Check it Out!</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Features Section-->
+<div class="main">
+    <div class="main__container" id="contact">
+        <div class="main__content">
+            <h1>I want to join your team!</h1>
+            <h2>CONTACT ME TODAY</h2>
+            <p>
+                I am an adaptable worker who is
+                always willing to learn more and I want to
+                bring my talents to your company
+            </p>
+            <a href="mailto:mattmbelanger@hotmail.com">
+                <button class="main__btn">
+                    <p>Contact Me!</p>
+                </button>
+            </a>
+        </div>
+        <div class="main__img--container">
+            <div class="main__img--card" id="card-2">
+                <!--From Font Awesome-->
+                <i class="fas fa-users"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section-->
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>More From Me</h2>
+                <a href="https://github.com/MattBelanger321/Resume/blob/main/MattBelangerResumeAug2021.pdf" target="_blank">Resume</a>
+                <!--
+                <a href="#" target="_blank">Awards</a>
+                <a href="#" target="_blank">Work Experience</a>
+                -->
+                <a href="https://github.com/MattBelanger321/SmileFinder" target="_blank">Mystery Link</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>Contact Me</h2>
+                <a href="mailto:mattmbelanger@hotmail.com" target="_blank">Email</a>
+                <a href="tel:5199912176" target="_blank">Phone</a>
+                <a href="https://www.linkedin.com/in/matthew-m-belanger/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </div>
+    <section class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="index.html" id="footer__logo">
+                    Matthew Belanger
+                </a>
+            </div>
+            <p class="website__rights">© Matt Belanger 2021. All rights reserved</p>
+            <div class="social__icons">
+                <a href="https://github.com/mattbelanger321" class="social__icon--link" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/matthew-m-belanger/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://devpost.com/mattmbelanger" class="social__icon--link" target="_blank">
+                    <i class="fab fa-dev"></i>
+                </a>
+                <a href="mailto:mattmbelanger@hotmail.com" class="social__icon--link" target="_blank">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:5199912176" class="social__icon--link" target="_blank">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
