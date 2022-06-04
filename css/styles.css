@@ -979,9 +979,8 @@ template {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 60%;
-    padding: 10rem 0;
+    padding: 0 0;
     background-color: #131313;
-    padding: 5rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
