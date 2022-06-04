@@ -977,7 +977,7 @@ template {
 .footer__container {
     background-image: url(../img/amp.jpg);
     background-size: cover;
-    background-position: center top;
+    background-repeat: no-repeat;
     background-position: 0% 60%;
     padding: 10rem 0;
     background-color: #131313;
