@@ -371,9 +371,9 @@ template {
 }
 
 #navbar__logo{
-    background: #5433FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: padding;
@@ -388,9 +388,9 @@ template {
 }
 
 #navbar__logo1{
-    background: #56CCF2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: padding;
@@ -405,9 +405,9 @@ template {
 }
 
 #navbar__logo2{
-    background: #5433FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: padding;
@@ -461,15 +461,15 @@ template {
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #5433FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #ffffff;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover{
-    color: #9518fc;
+    color: #FFEFBA;
     transition: all 0.3s ease;
 }
 
@@ -576,7 +576,11 @@ template {
 
 .hero{
     padding: 200px 0;
-    background-image: url(../img/black_sand.jpg);
+    background-image: url(../img/coverphoto.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-position: center top;
+    background-position: 50% 50%;
 }
 
 .hero__container {
@@ -595,9 +599,9 @@ template {
     font-size: 4rem;
     margin-bottom: 24px;
     color: #fff;
-    background: #5433FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: padding;
@@ -607,9 +611,9 @@ template {
 
 .hero__description{
     font-size: 60px;
-    background: #614385;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: padding;
@@ -618,7 +622,7 @@ template {
 }
 
 .highlight{
-    border-bottom: 4px solid rgb(132,0,255);
+    border-bottom: 4px solid rgb(255,204,153);
 }
 
 @media screen and (max-width: 760px) {
@@ -640,7 +644,11 @@ template {
 
 .main{
     background-color: #131313;
-    background-image: url(../img/stars.jpg);
+    background-image: url(../img/piano.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-position: 50% 70%;
+    padding: 10rem 0;
     padding: 10rem 0;
 }
 
@@ -667,8 +675,9 @@ template {
 
 .main__content h1{
     font-size: 2rem;
-    background-color: #fe3b6f;
-    background-image: linear-gradient(to top, #ff087b 0%,#ed1a52 100%);
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: padding;
@@ -680,9 +689,9 @@ template {
 
 .main__content h2{
     font-size: 4rem;
-    background: #ff8177;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #9114ff, #da22ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #8f0eff, #da22ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: padding;
@@ -698,9 +707,9 @@ template {
 
 .main__btn{
     font-size: 1.8rem;
-    background: #5433FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #74ebd5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -848,10 +857,14 @@ template {
 
 
 
-/* Skills Section */
+/* what-we-do Section */
 
-.skills{
-    background-image: url(../img/hero-unit-background-desktop.jpg);
+.what-we-do{
+    background-image: url(../img/sheetmusic.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-position: 50% 50%;
+    padding: 10rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -860,9 +873,10 @@ template {
     padding: 10rem 0;
 }
 
-.skills h1{
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #ff0844 0%,#ffb199 100%);
+.what-we-do h1{
+    background: #56CCF2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: padding;
@@ -872,13 +886,13 @@ template {
     font-size: 2.5rem;
 }
 
-.skills__wrapper{
+.what-we-do__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
-.skills__card{
+.what-we-do__card{
     margin: 10px;
     height: 425px;
     width: 300px;
@@ -892,40 +906,40 @@ template {
 }
 
 /*https://uiGradients.com*/
-.skills__card:nth-child(2){   /* affecting the 2nd Services card in the html*/
+.what-we-do__card:nth-child(2){   /* affecting the 2nd Services card in the html*/
     background: #000000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.skills__card:nth-child(3){   /* affecting the 3nd Services card in the html*/
+.what-we-do__card:nth-child(3){   /* affecting the 3nd Services card in the html*/
     background: #373B44;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.skills__card h2{
+.what-we-do__card h2{
     text-align: center;
 }
 
-.skills__card p{
+.what-we-do__card p{
     text-align: center;
     margin-top: 24px;
     font-size: 20px;
 }
 
-.skills__btn{
+.what-we-do__btn{
     display: flex;
     justify-content: center;
     margin-top: 16px;
 }
 
-.skills__btn--link{
+.what-we-do__btn--link{
     text-decoration: none;
     color: #fff;
 }
 
-.skills__card button{
+.what-we-do__card button{
     color: #fff;
     padding: 14px 24px;
     border: none;
@@ -935,11 +949,11 @@ template {
     font-size: 1rem;
 }
 
-.skills__card button:hover {
+.what-we-do__card button:hover {
     cursor: pointer;
 }
 
-.skills__card:hover{
+.what-we-do__card:hover{
     transform: scale(1.075);
     transition: 0.3s ease-in;
     cursor: pointer;
@@ -948,20 +962,24 @@ template {
 /*Mobile Responsive*/
 
 @media screen and (max-width: 1300px){
-    .skills__wrapper{
+    .what-we-do__wrapper{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (max-width: 768px){
-    .skills__wrapper{
+    .what-we-do__wrapper{
         grid-template-columns: 1fr;
     }
 }
 
 /* Footer Section */
 .footer__container {
-    background-image: url(../img/black_sand.jpg);
+    background-image: url(../img/amp.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-position: -10% 60%;
+    padding: 10rem 0;
     background-color: #131313;
     padding: 5rem 0;
     display: flex;

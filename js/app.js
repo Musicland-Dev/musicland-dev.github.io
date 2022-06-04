@@ -17,7 +17,7 @@ const highlightMenu = () => {
     const elem = document.querySelector('.highlight');
     const homeMenu = document.querySelector('#home-page');
     const aboutMenu = document.querySelector('#about-page');
-    const skillsMenu = document.querySelector('#skills-page');
+    const what_we_doMenu = document.querySelector('#what-we-do-page');
 
     let scrollPos = window.scrollY;
     //use the below to find the sweet spot for the highlight
@@ -32,9 +32,9 @@ const highlightMenu = () => {
         }else if(scrollPos < 1400){
             aboutMenu.classList.add('highlight'); //add highlight
             homeMenu.classList.remove('highlight');//remove old highlight
-            skillsMenu.classList.remove('highlight'); //remove old highlight
+            what_we_doMenu.classList.remove('highlight'); //remove old highlight
         }else if(scrollPos < 2345){
-            skillsMenu.classList.add('highlight'); //add highlight
+            what_we_doMenu.classList.add('highlight'); //add highlight
             aboutMenu.classList.remove('highlight'); //remove old highlight
         }
         return
